@@ -1,0 +1,16 @@
+{
+  "name": "Plone on Heroku",
+  "description": "A simple Plone site hosted on Heroku. Login with admin:admin.",
+  "repository": "https://github.com/niteoweb/heroku-button-plone",
+  "logo": "http://www.coactivate.org/projects/plone-marketing/plone-logo-guidelines/plone-vertical-logo.png",
+  "keywords": ["plone", "python", "cms"],
+  "website": "http://plone.org",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/niteoweb/heroku-buildpack-plone"
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "pgbackups:auto-month",
+    "mailgun"
+  ]
+}

@@ -6,10 +6,10 @@
   "keywords": ["plone", "python", "cms"],
   "website": "http://plone.org",
   "env": {
-    "BUILDPACK_URL": "https://github.com/plone/heroku-buildpack-plone"
-    "BUILDOUT_CONFIG": "heroku.cfg"
-    "BUILDOUT_VERBOSITY": "-v"
-    "BOOTSTRAP_PY_URL": "http://downloads.buildout.org/1/bootstap.py"
+    "BUILDPACK_URL": "https://github.com/plone/heroku-buildpack-plone",
+    "BUILDOUT_CONFIG": "heroku.cfg",
+    "BUILDOUT_VERBOSITY": "-v",
+    "BOOTSTRAP_PY_URL": "http://downloads.buildout.org/1/bootstap.py",
     "SITE_PASSWORD": "admin"
   },
   "addons": [

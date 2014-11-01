@@ -10,7 +10,7 @@
     "BUILDOUT_CONFIG": "heroku.cfg",
     "BUILDOUT_VERBOSITY": "-v",
     "BOOTSTRAP_PY_URL": "http://downloads.buildout.org/1/bootstrap.py",
-    "SITE_PASSWORD": "admin"
+    "ADMIN_PASSWORD": "admin"
   },
   "addons": [
     "heroku-postgresql:hobby-dev",

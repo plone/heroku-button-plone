@@ -9,8 +9,6 @@
     "BUILDPACK_URL": "https://github.com/plone/heroku-buildpack-plone"
   },
   "addons": [
-    "heroku-postgresql:hobby-dev",
-    "pgbackups:auto-month",
-    "mailgun"
+    "heroku-postgresql:hobby-dev"
   ]
 }

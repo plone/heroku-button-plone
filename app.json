@@ -10,7 +10,7 @@
   },
   "addons": [
     "heroku-postgresql:hobby-dev",
-    "pgbackups:auto-month",
+    "autobus:auto-month",
     "mailgun"
   ]
 }

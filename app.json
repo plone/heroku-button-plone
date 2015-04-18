@@ -6,11 +6,10 @@
   "keywords": ["plone", "python", "cms"],
   "website": "http://plone.org",
   "env": {
-    "BUILDPACK_URL": "https://github.com/plone/heroku-buildpack-plone"
+    "BUILDPACK_URL": "https://github.com/plone/heroku-buildpack-plone/tree/5.0b1"
   },
   "addons": [
     "heroku-postgresql:hobby-dev",
-    "pgbackups:auto-month",
     "mailgun"
   ]
 }

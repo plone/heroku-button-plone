@@ -10,7 +10,7 @@
   },
   "addons": [
     "heroku-postgresql:hobby-dev",
-    "autobus:auto-month",
+    "autobus:trip",
     "mailgun"
   ]
 }
